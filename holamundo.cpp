@@ -1,8 +1,19 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
-int main () {
-	string hola=="";
-	cout << "Hola" << hola << "Mundo" << endl;
+
+int hola(int hola) {
+	
+	cout << "Hola Mundo" << endl;
+	return hola;
+}
+int main() {
+	string hola = NULL;
+	int holaa = 9;
+	
+	holaa= hola(holaa);
+	
 	return 0;
+	
 }
